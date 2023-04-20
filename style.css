@@ -3,8 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
-
 section {
 	background-color: whitesmoke;
 	height: 1000px;
@@ -57,4 +55,35 @@ section {
 	border: 1px solid orange;
 	width: 140px;
 	height: 48px;
+}
+.info{
+	display: inline-block;
+	margin-right: 100px;
+}
+.footer-headings{
+	margin-bottom: 50px;
+}
+.footer{
+	display: flex;
+	margin-top: 40px;
+}
+.container{
+	max-width: 1260px;
+	margin: 0 auto;
+}
+.footer-input{
+	margin-left: 50px;
+}
+.footer-input p{
+	width:296px;
+	margin: 63px 0px 33px 0px;
+}
+footer p{
+	font-size: 11px;
+}
+.footer-button{
+	background: blue;
+}
+.footer-left-wrapper{
+	background-color: whitesmoke;
 }
